@@ -5,3 +5,22 @@
   max-width: 750px; /* or 950px */
   background-color: cornsilk
 }
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+body {
+    font-family: Century Gothic, sans-serif;
+    font-size: 12px;
+}
+
+#choices {
+    text-align: left;
+    padding: 10px;
+}
+
+#choices.li {
+    padding: 10px;
+}
