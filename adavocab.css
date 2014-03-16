@@ -1,0 +1,7 @@
+/* CSS declarations go here */
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 750px; /* or 950px */
+  background-color: cornsilk
+}

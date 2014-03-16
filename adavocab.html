@@ -1,0 +1,56 @@
+<head>
+  <title>adavocab</title>
+
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      {{> ada}}
+    </div>
+  </div>
+
+  <!--- Hidden divs with the poems. They are displayed by the javascript at the approprate time -->
+  <div id="hidden-poems" style="display:none">
+  <div id="poem-function">
+
+    <h2>Inert Perfection</h2>
+
+ 
+    by <a href='https://www.poets.org/viewmedia.php/prmMID/23304'>Edna St. Vincent Millay</a>
+
+    Inert Perfection, let me chip your shell.
+    You cannot break it through with that soft beak.
+    What if you broke it never, and it befell
+    You should not issue thence, should never speak?”
+    
+    Perfection in the egg, a fluid thing,
+    Grows solid in due course, and there exists;
+    Knowing no urge to struggle forth and sing;
+    Complete, though shell-bound. But the mind insists
+
+    It shall be hatched ... to this ulterior end:
+    That it be bound by <b>Function</b>, that it be
+    Less than Perfection, having to expend
+    Some force on a nostalgia to be free.
+  </div>
+</div>
+</body>
+
+<template name="ada">
+  <div class="col-sm-4 text-center">
+    <h4>Save Ada from the Madness of Poetry</h4>
+    Choose the technical meaning of <i>{{word}}</i> to keep Ada from spinning.
+    <ul id="choices">
+    </ul>
+  </div>
+  <div class="col-sm-4">
+    <div class="center-block">
+      <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Ada_Lovelace_color.svg/153px-Ada_Lovelace_color.svg.png" id="image">
+      <p>
+	<input type="button" value="Click to Start" />
+    </div>
+
+  </div>
+  <div id="poem" class="col-sm-4 text-center">POEM</div>
+</template>
